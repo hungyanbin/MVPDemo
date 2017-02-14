@@ -1,6 +1,6 @@
-package yanbin.com.mvpdemo;
+package yanbin.com.mvpdemo.login;
 
-public interface LoginContract {
+interface LoginContract {
 
     interface View{
         void showLoginSuccess();

@@ -1,12 +1,14 @@
-package yanbin.com.mvpdemo;
+package yanbin.com.mvpdemo.login;
 
 
-public class LoginPresenter implements LoginContract.Presenter {
+import yanbin.com.mvpdemo.LoginResponse;
+
+class LoginPresenter implements LoginContract.Presenter {
 
     private LoginContract.View view;
     private LoginApi loginApi;
 
-    public LoginPresenter(LoginContract.View view, LoginApi loginApi) {
+    LoginPresenter(LoginContract.View view, LoginApi loginApi) {
         this.view = view;
         this.loginApi = loginApi;
     }

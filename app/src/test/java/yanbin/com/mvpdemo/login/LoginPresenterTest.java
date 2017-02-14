@@ -1,14 +1,14 @@
-package yanbin.com.mvpdemo;
+package yanbin.com.mvpdemo.login;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
 import io.reactivex.Observable;
+import yanbin.com.mvpdemo.Constants;
+import yanbin.com.mvpdemo.LoginResponse;
 
-import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 public class LoginPresenterTest {

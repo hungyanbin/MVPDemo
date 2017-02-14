@@ -1,11 +1,13 @@
-package yanbin.com.mvpdemo;
+package yanbin.com.mvpdemo.login;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import io.reactivex.Observable;
+import yanbin.com.mvpdemo.LoginResponse;
+import yanbin.com.mvpdemo.login.LoginApi;
 
-public class LoginApiImp implements LoginApi{
+class LoginApiImp implements LoginApi {
 
     @Override
     public Observable<LoginResponse> login(String account, String password) {

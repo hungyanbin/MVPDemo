@@ -1,4 +1,4 @@
-package yanbin.com.mvpdemo;
+package yanbin.com.mvpdemo.login;
 
 import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements LoginContract.View{
+import yanbin.com.mvpdemo.R;
+
+public class LoginActivity extends AppCompatActivity implements LoginContract.View {
 
     private TextInputEditText edtAccount;
     private TextInputEditText edtPassword;
