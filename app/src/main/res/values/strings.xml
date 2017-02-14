@@ -3,4 +3,6 @@
     <string name="account">帳號</string>
     <string name="password">密碼</string>
     <string name="login">登入</string>
+
+    <string name="error_invalid_account">無效的帳號</string>
 </resources>

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.Toast;
 
+import yanbin.com.mvpdemo.Injection;
 import yanbin.com.mvpdemo.R;
 
 public class LoginActivity extends AppCompatActivity implements LoginContract.View {
@@ -20,7 +21,7 @@ public class LoginActivity extends AppCompatActivity implements LoginContract.Vi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setViews();
-        presenter = new LoginPresenter(this, new LoginApiImp());
+        presenter = new LoginPresenter(this, new LoginApiImp(), Injection.getResourceService());
     }
 
     private void setViews(){
