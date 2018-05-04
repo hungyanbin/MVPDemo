@@ -10,3 +10,6 @@ A Demo for implementing MVP, Unit test, Rxjava in Android
 ## Slide
 https://www.slideshare.net/ssuser8674c1/mvp-in-practice
 
+## Environment
+gradle build tool version : 2.2.3
+
